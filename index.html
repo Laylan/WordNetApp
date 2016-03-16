@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head ng-app="wordnetApp">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+</head>
+<body>
+  <script type="text/javascript" src="angular.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <div ng-controller="WordnetAppController as wordNet">
+    <h1>{{wordNet.info.courseName}}</h1>
+    <br>
+    <h2>Projekt: {{wordNet.info.projectName}}</h2>
+  </div>
+</body>
+</html>
